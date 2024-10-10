@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Clone from GitHub') {
             steps {
-                git 'https://github.com/akor92/akor92.git'  // Replace with your GitHub repo URL
+                git 'https://github.com/akor92/oboche.git'  // Replace with your GitHub repo URL
             }
         }
         stage('Build Docker Image') {
